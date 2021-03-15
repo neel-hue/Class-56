@@ -1,0 +1,53 @@
+body{
+    margin: 0px;
+    padding-top : 800px;
+    text-align: center;
+}
+#img{
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+#welcome{
+    top : 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height : 800px;
+    height : 100%;
+    width: 100%;
+    color: whitesmoke;
+    background: linear-gradient(aqua,blue);
+    position: absolute;
+    overflow: hidden;
+    display : table;
+    opacity: 0.8;
+}
+#bio{
+    padding: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 22px;
+}
+.parallax-inner{
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+}
+.line{
+    height : 6px;
+    width : 70px;
+    background: black;
+    margin: 8px auto;
+}
+h1{
+    font-family: monospace;
+    font-size: 40px;
+}
+h2{
+    font-family: cursive;
+    font-size: 30px;
+}
+p{
+    font-size: bold;
+}
